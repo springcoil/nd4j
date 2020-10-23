@@ -246,8 +246,8 @@
         <javacpp.version>1.2-SNAPSHOT</javacpp.version>
         <process-classes.skip> false</process-classes.skip>  <!-- To skip native compilation phase: -Dprocess-classes.skip=true    -->
         <javacpp.platform>${os.name}-${os.arch}</javacpp.platform> <!-- For Android: -Dplatform=android-arm                                        -->
-        <javacpp.platform.root />            <!--              -Dplatform.root=/path/to/android-ndk/                         -->
-        <javacpp.platform.compiler />    <!--              -Dplatform.compiler=/path/to/arm-linux-androideabi-g++        -->
+        <javacpp.platform.root/>            <!--              -Dplatform.root=/path/to/android-ndk/                         -->
+        <javacpp.platform.compiler/>    <!--              -Dplatform.compiler=/path/to/arm-linux-androideabi-g++        -->
         <javacpp.platform.properties>${javacpp.platform}</javacpp.platform.properties>
     </properties>
 
@@ -411,7 +411,7 @@
             <dependency>
                 <groupId>com.google.guava</groupId>
                 <artifactId>guava</artifactId>
-                <version>18.0</version>
+                <version>r03</version>
             </dependency>
             <dependency>
                 <groupId>junit</groupId>
